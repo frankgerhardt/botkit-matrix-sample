@@ -1,0 +1,26 @@
+{
+  "name": "botkit-matrix-sample",
+  "version": "1.0.0",
+  "description": "A sample bot using the botkit-matrix module",
+  "main": "bot.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankgerhardt/botkit-matrix-sample.git"
+  },
+  "keywords": [
+    "botkit",
+    "matrix"
+  ],
+  "author": "Lukács Sándor",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/frankgerhardt/botkit-matrix-sample/issues"
+  },
+  "homepage": "https://github.com/frankgerhardt/botkit-matrix-sample#readme",
+  "dependencies": {
+    "botkit-matrix": "file:../botkit-matrix"
+  }
+}
