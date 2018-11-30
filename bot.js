@@ -1,9 +1,4 @@
-let config = {
-    'baseUrl': 'https://matrix.org',
-    'botUserId': '@gibot3:matrix.org',
-    'password': 'chatbot2018!',
-    'localStorage': './storage'
-};
+const config = require('./config').base;
 
 require('botkit-matrix').MatrixController(config)
 .then((controller) => {

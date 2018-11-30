@@ -160,3 +160,5 @@ fabric.properties
 /storage
 
 .idea/
+
+./config.js

@@ -4,6 +4,7 @@
   "description": "A sample bot using the botkit-matrix module",
   "main": "bot.js",
   "scripts": {
+    "start": "node bot.js",
     "test": "test"
   },
   "repository": {
