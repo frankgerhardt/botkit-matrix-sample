@@ -6,13 +6,13 @@ let config = {
 };
 
 require('botkit-matrix').MatrixController(config)
-    .then((controller) => {
+.then((controller) => {
 
-        controller.hears(['hi', 'hello'], 'message_received', function (bot, message) {
-            bot.reply(message, "Hello, world!");
-        });
-
-        controller.hears(['.*'], 'message_received', function (bot, message) {
-            bot.reply(message, "Sorry, I can't understand. :(");
-        });
+    controller.hears(['hi', 'hello'], 'message_received', function (bot, message) {
+        bot.reply(message, "Hello, world!");
     });
+
+    controller.hears(['.*'], 'message_received', function (bot, message) {
+        bot.reply(message, "Sorry, I can't understand. :(");
+    });
+});
