@@ -1,4 +1,4 @@
-exports = {
+exports.base = {
     'baseUrl': 'https://matrix.org',
     'botUserId': '<youruserid>',
     'password': '<yourpassword>',
