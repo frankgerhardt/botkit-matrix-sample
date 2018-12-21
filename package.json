@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/frankgerhardt/botkit-matrix-sample#readme",
   "dependencies": {
-    "botkit-matrix": "file:../botkit-matrix"
+    "botkit-matrix": "^1.0.1"
   }
 }

@@ -161,4 +161,4 @@ fabric.properties
 
 .idea/
 
-./config.js
+config.js

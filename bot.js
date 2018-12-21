@@ -10,4 +10,6 @@ require('botkit-matrix').MatrixController(config)
     controller.hears(['.*'], 'message_received', function (bot, message) {
         bot.reply(message, "Sorry, I can't understand. :(");
     });
+}).catch((e) => {
+    console.log(e);
 });
