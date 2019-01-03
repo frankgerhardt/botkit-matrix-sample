@@ -9,6 +9,12 @@ Install dependencies:
 
 ```$ npm install```
 
+Config:
+
+Configure the ```config.example.js``` file with your matrix credentials and give a path for the
+
+localstorage then rename it to ```config.js```.
+
 Run with:
 
 ```$ npm start```
